@@ -71,3 +71,25 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px) {
+  .airplane-list-container{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+  .airplane-card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    
+  }
+  body{
+    display: flex;
+    
+  }
+}
