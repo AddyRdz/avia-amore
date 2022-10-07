@@ -71,25 +71,30 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .airplane-list-container{
-    background-color: red;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
   }
   .airplane-card{
-    margin: 20px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    /* justify-content: center; */
   }
-  header{
-    display: flex;
-    flex-direction: row;
-    background-color: aqua;
-    
+  header {
+   display: inline-block;
+
+   /* Another way to align the header using  display flex
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; */
   }
-  body{
-    display: flex;
-    
+  h1 {
+    padding-bottom: 10%;
   }
+  
 }
